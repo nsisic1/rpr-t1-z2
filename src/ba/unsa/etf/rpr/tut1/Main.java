@@ -1,4 +1,4 @@
-package ba.unsa.etf.rpr.predavanje03;
+package ba.unsa.etf.rpr.tut1;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Main {
         }
     }
 
-    public static int SumaCifara(int broj) {
+    private static int SumaCifara(int broj) {
         int suma = 0;
         while (broj > 0) {
             suma += broj % 10;
